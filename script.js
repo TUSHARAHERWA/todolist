@@ -9,7 +9,7 @@ let inputxt = document.getElementById("inputText");
 let txtareas = document.getElementById("addTxtArea");
 
 addBtn.addEventListener("click", function() {
-  if(inputxt.value == '' || txtareas.value == '') {
+  if(inputxt.value == ' ' || txtareas.value == ' ') {
     alert("your notes is empty");
   }
   else {
